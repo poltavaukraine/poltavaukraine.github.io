@@ -1,0 +1,841 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+    background-color: rgb(44, 44, 49);
+}
+
+.nav-group-list {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+}
+
+.nav-group-list li {
+    margin-right: 24px;
+}
+
+.nav-link-1 {
+    text-decoration: none;
+    color: white;
+    margin-left: 3px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: grey;
+    padding-left: 3px;
+}
+
+.icon {
+    width: 18px;
+    height: 15px;
+}
+
+.nav-link:hover {
+    color: white;
+    transition: 0.3s all;
+}
+
+.input-seach {
+    font-size: 15px;
+    padding: 8px 5px;
+    background-color: rgb(61, 61, 65);
+    border: none;
+    text-align: center;
+}
+
+.seach-button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 5px;
+    background-color: rgb(42, 100, 178);
+    margin-left: -4px;
+}
+
+.version-1-79 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 37, 42);
+    padding: 12px;
+    align-items: center;
+}
+
+.version-button {
+    color: rgb(67, 150, 247);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.offer {
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.code-block {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(44, 44, 49);
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.code-editing {
+    padding-top: 60px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.text-1 {
+    color: white;
+    font-weight: normal;
+}
+
+span {
+    font-weight: bold;
+}
+
+.text-2 {
+    color: rgb(163, 163, 163);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.Button-3 {
+    background-color: rgb(42, 100, 178);
+    color: white;
+    padding: 12px;
+    border: none;
+    line-height: 22px;
+    margin-right: 10px;
+}
+
+.DfW {
+    font-size: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 5px;
+}
+
+.Button-4 {
+    background-color: rgb(42, 100, 178);
+    color: white;
+    border: none;
+    padding: 26.4px 10px;
+    margin-left: -7.5px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.Web-Insiders-platforms {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    background-color: rgb(37, 37, 42);
+    color: rgb(55, 111, 175);
+    margin-top: 18px;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.by-vs-code {
+    margin-top: 13px;
+}
+
+.text-5 {
+    font-size: 13px;
+    color: rgb(163, 163, 163);
+    line-height: 18px;
+}
+
+.license {
+    color: rgb(55, 111, 175);
+    text-decoration: none;
+}
+
+/* for-container */
+
+.for-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-1 {
+    text-align: center;
+    margin-left: 120px;
+}
+
+.block-2 {
+    text-align: center;
+    margin-left: -5px;
+}
+
+.block-3 {
+    text-align: center;
+    margin-left: 5px;
+}
+
+.block-4 {
+    text-align: center;
+    margin-right: 120px;
+}
+
+.photo1 {
+    width: 40px;
+    height: 50px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.photo2 {
+    width: 55px;
+    height: 50px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 30px;
+}
+
+.photo3 {
+    width: 45px;
+    height: 50px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.photo4 {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.intelliSense {
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.run-and-debug {
+    font-size: 16px;
+    margin-top: 4px;
+    margin-right: 12px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.built-in-git {
+    font-size: 16px;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.extensions {
+    font-size: 16px;
+    margin-top: 4px;
+    margin-right: 15px;
+}
+
+/* блок с людьми */
+
+.for-human {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    justify-content: space-around;
+}
+
+.photo-una {
+    margin-top: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+
+}
+
+.human-una {
+    display: flex;
+    margin-bottom: 60px;
+    margin-left: 110px;
+}
+
+.una-kravets {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.uk {
+    font-size: small;
+    color: black;
+}
+
+.una-1 {
+    font-weight: normal;
+    font-size: 11px;
+    color: rgb(73, 72, 72);
+}
+
+.photo-jadbox {
+    margin-top: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.human-jonathan-dunlap {
+    display: flex;
+}
+
+.jonathan-dunlaps {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.jd {
+    font-size: small;
+    color: black;
+}
+
+.jadbox-1 {
+    font-weight: normal;
+    font-size: 11px;
+    color: rgb(73, 72, 72);
+}
+
+.photo-pkodmad {
+    margin-top: 70px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.human-pavithra-kodmad {
+    display: flex;
+    margin-right: 110px;
+}
+
+.pavithra-kodmad {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.pk {
+    font-size: small;
+    color: black;
+}
+
+.pkodmad-1 {
+    font-weight: normal;
+    font-size: 11px;
+    color: rgb(73, 72, 72);
+}
+
+/* Meet IntelliSense */
+
+.photo-intellisense {
+    width: 300x;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+
+}
+
+.mis-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.mis {
+    line-height: 1.3;
+}
+
+.mis span {
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+/* <!-- Print statement debugging is a thing of the past. --> */
+
+.print-statement-debugging {
+    background-color: rgb(245, 245, 245);
+}
+
+.photo-debug {
+    width: 300x;
+    height: 200px;
+    margin-right: 40px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.ps-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.ps {
+    line-height: 1.3;
+    margin-top: 80px;
+}
+
+.ps span {
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+/* Git commands built-in. */
+
+.git-commands-built-in-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-git-commands {
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: -50px;
+    margin-left: 50px;
+}
+
+.git-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.git {
+    line-height: 1.3;
+    margin-top: 100px;
+}
+
+.git span {
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+/* Extensible and customizable. */
+
+.extensible-and-customizable {
+    background-color: rgb(245, 245, 245);
+}
+
+.photo-hoe {
+    width: 300x;
+    height: 260px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.eac-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+}
+
+.eac {
+    line-height: 1.3;
+    margin-top: 80px;
+}
+
+.eac span {
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+/* Deploy with confidence and ease */
+
+.photo-azure {
+    width: 300x;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.deploy {
+    margin-top: 1px;
+}
+
+.deploy-with {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.deploy span {
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/* <!-- VS Code for --> */
+
+.vs-code {
+    background-color: rgb(245, 245, 245);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.language {
+    margin: 15px;
+    padding: 10px;
+    margin-right: 55px;
+}
+
+.link-page {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.link-page a {
+    text-decoration: none;
+}
+
+.my-button {
+    margin-top: 60px;
+    background-color: rgb(55, 111, 175);
+    color: white;
+    border: none;
+    font-size: 17px;
+   
+}
+.my-button-gst{
+   background-color:  rgb(55, 111, 175);
+   color: white;
+   border: none;
+   padding-top: 15px;
+   padding-bottom: 4px;
+   padding-right: 20px;
+   padding-left: 30px;
+   font-size: 17px;
+   margin-bottom: 10px;
+}
+
+/* <!-- 3 pages --> */
+
+.three-pages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.three-page {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.windows-logo {
+    width: 90px;
+    height: 100px;
+    margin-right: 230px;
+}
+
+.linux-logo {
+    width: 90px;
+    height: 100px;
+    margin-right: 230px;
+}
+
+.apple-logo {
+    width: 90px;
+    height: 100px;
+}
+
+/* <!-- for pages --> */
+
+.for-page {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.button1 {
+    margin-left: 230px;
+    box-sizing: border-box;
+}
+
+.button2 {
+    margin-right: -2px;
+    box-sizing: border-box;
+    width: 170px;
+}
+
+.button3 {
+    margin-left: -2px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    width: 170px;
+}
+
+.button4 {
+    margin-right: 220px;
+    box-sizing: border-box;
+    width: 170px;
+}
+
+.btn1 {
+    height: 70px;
+    width: 170px;
+    padding: 10px 30px;
+    background-color: rgb(55, 111, 175);
+    border: none;
+    color: white;
+}
+
+.btn2 {
+    height: 70px;
+    width: 170px;
+    padding: 5px 20px;
+    margin-left: 35px;
+    background-color: rgb(55, 111, 175);
+    border: none;
+    color: white;
+}
+
+.btn3 {
+    height: 70px;
+    width: 170px;
+    padding: 5px 20px;
+    margin-right: 35px;
+    background-color: rgb(55, 111, 175);
+    border: none;
+    color: white;
+}
+
+.btn4 {
+    height: 70px;
+    width: 170px;
+    padding: 10px 35px;
+    background-color: rgb(55, 111, 175);
+    border: none;
+    color: white;
+}
+
+.download {
+    display: flex;
+    padding: 40px 40px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: px;
+    margin-top: 10px;
+}
+
+.windows>p,
+.linux>p,
+.mac>p {
+    line-height: 23px;
+}
+
+.windows {
+    padding-top: 1px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.linux {
+    text-align: center;
+    padding-left: 9px;
+}
+
+.mac {
+    padding-top: 1px;
+    text-align: center;
+    margin-right: px;
+}
+
+.img-download {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.linux-button,
+.download-button {
+    color: white;
+    background-color: #0066b8;
+    font-size: 4px; 
+    height: 15px;
+    width: 55px;
+    border: none;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.linux-button:hover,
+.download-button:hover {
+    background-color: #2e4c65;
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    padding: 1px 4px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    margin: 1px;
+    font-size: 10px;
+    border-radius: 2px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 15px; 
+}
+
+/* <!-- Want new features sooner? --> */
+
+.want-new-features {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-around;
+}
+
+.want {
+    margin-top: 40px;
+}
+
+.use-vscode {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.wnfs span {
+    line-height: 3;
+}
+
+.uv span {
+    line-height: 3;
+}
+
+/* <!-- License and Privacy Terms --> */
+
+.lpt {
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 1px;
+    padding-bottom: 20px;
+}
+
+.license-privacy {
+    text-align: center;
+    font-size: 13px;
+    line-height: 2.3;
+}
+
+/* <!-- end block --> */
+
+.end-block {
+    background-color: rgb(44, 44, 49);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    word-spacing: 5px;
+}
+
+.one-block-end {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.too-block-end {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.too {
+    color: white;
+}
+
+.sptl {
+    color: white;
+}
+
+.too {
+    list-style-type: none;
+}
+
+.too li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.for {
+    list-style-type: none;
+    margin-left: 5px;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+}
+
+.one-block-end {
+    display: flex;
+    align-items: center;
+}
+
+.too-block-end {
+    display: flex;
+    align-items: center;
+}
+
+.too-block-end .sptl {
+    display: flex;
+    align-items: center;
+}
+
+.too-block-end .for {
+    display: flex;
+    align-items: center;
+}
+
+.too-block-end .for li {
+    margin-right: 10px;
+}
+
+.my-button {
+    margin-right: 10px;
+    padding: 0 5px;
+    font-size: 12px;
+}
